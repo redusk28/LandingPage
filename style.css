@@ -1,0 +1,233 @@
+body {
+    display:flex;
+    flex-direction: column;
+    
+    
+}
+
+.header, .part2 {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-left: 300px;
+    padding-right: 300px; 
+    align-items: center;
+    gap: 16px;
+    
+}
+
+.part2 {
+
+    gap: 50px;
+}
+
+
+ul {
+    display: flex;
+    margin:0;
+    padding:0;
+    gap:16px;
+    list-style-type: none;
+}
+
+a {
+    color:#e5e7eb;
+    text-decoration: none; /* no underline */
+  }
+
+button {
+    border: none;
+    border-radius: 8px;
+    border-color: white;
+    background: #3882f6;
+    color: white;
+    padding: 8px 24px;
+}
+
+.card {
+    max-width: 500px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius:5%;
+    
+    }
+
+
+.main {
+
+    max-width: 500px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.info {
+    max-width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.guides {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:45px;
+    margin-bottom: 50px;
+
+}
+
+.text {
+    text-align: center;
+}
+
+.paint, .photography, .tools, .tips, {
+
+    width: 300px;
+    
+}
+
+.quote {
+    background-color: #e5e7eb;
+    
+}
+
+.quotetext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+   
+    width:1000px;
+}
+
+.newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    margin: 40px;
+    padding: 16px;
+    margin-left: 200px;
+    margin-right: 200px;
+    gap: 30px;
+    border-radius: 8px;
+
+    
+    
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-left: 300px;
+    padding-right: 300px; 
+    align-items: center;
+    
+    
+}
+
+
+
+/*--------color and formatting */
+
+h1, h2, h3, h4, h5, h6, p, button, ul {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+.smallheader {
+    font-size: 24px;
+    color:#f9faf8;
+    
+}
+
+ul, li {
+font-size: 18px;
+color: #e5e7eb;
+
+}
+
+.bigheader {
+    font-size: 48px;
+    font-weight: bolder;
+    color:#f9faf8;
+}
+
+.para {
+    color:#e5e7eb;
+    font-size: 18px;
+    padding-bottom: 12px;
+}
+
+.guide {
+    color:#1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.infotext {
+
+    font-size: 18px;
+    color:#1F2937;
+    font;
+
+}
+
+.signup {
+    border-style: solid;
+    border-color: #e5e7eb;
+    border-radius: 8px;
+    background: #3882f6;
+    color: white;
+    padding: 8px 24px;
+}
+
+.prompt1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e5e7eb;
+
+}
+
+.prompt2 {
+    font-size: 14px;
+    color: #e5e7eb;
+}
+
+.quote1 {
+font-size: 36px;
+color:#1F2937;
+font-style: italic;
+
+}
+
+.author1 {
+color: #1F2937;
+font-size: 18px;
+font-weight: bold;
+}
+
+.foot {
+    color: #f9faf8;
+    font-size: 18px;
+}
